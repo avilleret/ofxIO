@@ -267,7 +267,7 @@ std::string Compression::version(Type type)
         case SNAPPY:
         {
             std::stringstream ss;
-            ss << SNAPPY_MAJOR << "." << SNAPPY_MINOR << "." << SNAPPY_PATCHLEVEL;
+            ss << 0 << "." << 0 << "." << 0;
             return ss.str();
         }
         case LZ4:
